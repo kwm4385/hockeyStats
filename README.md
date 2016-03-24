@@ -66,7 +66,7 @@ $ npm test
 ### How to Deploy
 
 ```shell
-$ npm run deploy                # Deploys the project to GitHub Pages
+$ git subtree push --prefix build origin gh-pages                # Deploys the project to GitHub Pages
 ```
 
 ### Related Projects

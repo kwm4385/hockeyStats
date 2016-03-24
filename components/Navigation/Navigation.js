@@ -17,7 +17,7 @@ export default class extends Component {
           <a className="Navigation-link" href="/" onClick={Link.handleClick}>Home</a>
         </li>
         <li className="Navigation-item">
-          <a className="Navigation-link" href="/about" onClick={Link.handleClick}>About</a>
+          <a className="Navigation-link" href="/attendance" onClick={Link.handleClick}>Attendance</a>
         </li>
       </ul>
     );
